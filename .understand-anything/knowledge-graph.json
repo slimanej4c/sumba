@@ -1,0 +1,2395 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "sumba-site",
+    "languages": [
+      "css",
+      "html",
+      "javascript"
+    ],
+    "frameworks": [],
+    "description": "Site vitrine statique de Sumba Nusantara, une agence locale de voyage à Sumba proposant des circuits, des services de transport et location, des activités et un guide détaillé de l’île.",
+    "analyzedAt": "2026-09-20T10:04:06.970Z",
+    "gitCommitHash": "non-git"
+  },
+  "nodes": [
+    {
+      "id": "file:a-propos.html",
+      "type": "file",
+      "name": "a-propos.html",
+      "filePath": "a-propos.html",
+      "summary": "Présente l’histoire et la philosophie de Sumba Nusantara, une agence locale fondée par deux Français après leur expérience de voyage à Bali. La page met en avant une approche humaine, responsable et ancrée dans la réalité de Sumba.",
+      "tags": [
+        "presentation-agence",
+        "histoire",
+        "tourisme-responsable",
+        "conversion"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:bateau-riviere.html",
+      "type": "file",
+      "name": "bateau-riviere.html",
+      "filePath": "bateau-riviere.html",
+      "summary": "Décrit une excursion en bateau sur l’embouchure de Melolo pour observer la faune, notamment les crocodiles, dans des conditions encadrées. La page détaille l’expérience, les conditions pratiques et le rôle du guide local.",
+      "tags": [
+        "excursion",
+        "observation-faune",
+        "melolo",
+        "service-touristique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:bon-a-savoir.html",
+      "type": "file",
+      "name": "bon-a-savoir.html",
+      "filePath": "bon-a-savoir.html",
+      "summary": "Centralise les informations pratiques pour préparer un séjour à Sumba : accès, formalités, connexion, paiements, assurance, santé, alimentation et voyage en famille. Elle sert de guide préalable au départ et oriente les visiteurs vers un contact direct.",
+      "tags": [
+        "conseils-pratiques",
+        "preparation-voyage",
+        "formalites",
+        "sante-voyage"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cascades.html",
+      "type": "file",
+      "name": "cascades.html",
+      "filePath": "cascades.html",
+      "summary": "Répertorie les principales cascades de Sumba par zone, dont Lapopu, Matayangu, Weekacura, Lokomboro, Tanggedu et Waimarang. Chaque carte conduit vers une fiche détaillée et aide à comparer les sites naturels.",
+      "tags": [
+        "guide-destination",
+        "cascades",
+        "nature",
+        "catalogue-lieux"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chauffeur-prive.html",
+      "type": "file",
+      "name": "chauffeur-prive.html",
+      "filePath": "chauffeur-prive.html",
+      "summary": "Commercialise un service de chauffeur-guide privé à la journée pour explorer Sumba selon un itinéraire sur mesure. La page précise les prestations incluses, les usages adaptés et la valeur du conseil local.",
+      "tags": [
+        "chauffeur-prive",
+        "guide-local",
+        "service-touristique",
+        "sur-mesure"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chevaux-plage.html",
+      "type": "file",
+      "name": "chevaux-plage.html",
+      "filePath": "chevaux-plage.html",
+      "summary": "Présente une balade à cheval sur les plages de Sumba, particulièrement au coucher du soleil, avec des chevaux locaux. Elle explique le déroulement, le meilleur moment et les précautions utiles avant réservation.",
+      "tags": [
+        "balade-cheval",
+        "plage",
+        "activite",
+        "reservation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-est-4j.html",
+      "type": "file",
+      "name": "circuit-est-4j.html",
+      "filePath": "circuit-est-4j.html",
+      "summary": "Détaille un circuit de quatre jours dans l’Est de Sumba autour de Waingapu, Wairinding, Walakiri et Tanggedu. Le programme journalier présente une formule organisée avec hébergement et accompagnement.",
+      "tags": [
+        "circuit",
+        "est-sumba",
+        "itineraire-4-jours",
+        "sejour-organise"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-ouest-4j.html",
+      "type": "file",
+      "name": "circuit-ouest-4j.html",
+      "filePath": "circuit-ouest-4j.html",
+      "summary": "Décrit un séjour de quatre jours dans l’Ouest de Sumba, entre villages traditionnels, lagon de Weekuri, cascades et plages. La page expose le programme quotidien et propose aussi une variante plus autonome.",
+      "tags": [
+        "circuit",
+        "ouest-sumba",
+        "itineraire-4-jours",
+        "sejour-organise"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-ouest-5j.html",
+      "type": "file",
+      "name": "circuit-ouest-5j.html",
+      "filePath": "circuit-ouest-5j.html",
+      "summary": "Propose une exploration approfondie de cinq jours dans l’Ouest de Sumba, couvrant Ratenggaro, Weekuri, Mandorak, Weekacura et les villages de Waikabubak. Le contenu suit un découpage jour par jour et met en avant l’hébergement avec chauffeur-guide.",
+      "tags": [
+        "circuit",
+        "ouest-sumba",
+        "itineraire-5-jours",
+        "sejour-organise"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-ouest-centre-6j.html",
+      "type": "file",
+      "name": "circuit-ouest-centre-6j.html",
+      "filePath": "circuit-ouest-centre-6j.html",
+      "summary": "Présente un circuit de six jours reliant l’Ouest et le Centre de Sumba, avec villages, mégalithes d’Anakalang et cascades de Lapopu et Matayangu. Il constitue une formule culturelle et naturelle plus étendue.",
+      "tags": [
+        "circuit",
+        "ouest-centre",
+        "itineraire-6-jours",
+        "culture-et-nature"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-ouest-est-8j.html",
+      "type": "file",
+      "name": "circuit-ouest-est-8j.html",
+      "filePath": "circuit-ouest-est-8j.html",
+      "summary": "Décrit une grande traversée de huit jours de Tambolaka à Waingapu, combinant les sites majeurs de l’Ouest, du Centre et de l’Est. L’itinéraire linéaire évite de revenir au point de départ et vise une découverte complète de l’île.",
+      "tags": [
+        "circuit",
+        "traversee-ile",
+        "itineraire-8-jours",
+        "sejour-complet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-sud-est-7j.html",
+      "type": "file",
+      "name": "circuit-sud-est-7j.html",
+      "filePath": "circuit-sud-est-7j.html",
+      "summary": "Présente un circuit de sept jours dans le Sud-Est préservé de Sumba, incluant Wairinding, Praiyawang, Melolo et Tarimbang. Le programme associe paysages, culture ikat, villages traditionnels et excursion fluviale.",
+      "tags": [
+        "circuit",
+        "sud-est-sumba",
+        "itineraire-7-jours",
+        "hors-des-sentiers-battus"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuit-tour-ile-10j.html",
+      "type": "file",
+      "name": "circuit-tour-ile-10j.html",
+      "filePath": "circuit-tour-ile-10j.html",
+      "summary": "Expose un tour de Sumba en dix jours couvrant l’Ouest, le Centre, l’Est et le Sud, avec les principaux villages, cascades, plages et savanes. C’est l’offre la plus longue et la plus exhaustive du catalogue de circuits.",
+      "tags": [
+        "circuit",
+        "tour-de-ile",
+        "itineraire-10-jours",
+        "sejour-complet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:circuits-sejours.html",
+      "type": "file",
+      "name": "circuits-sejours.html",
+      "filePath": "circuits-sejours.html",
+      "summary": "Sert de catalogue central pour sept circuits de quatre à dix jours et une offre d’itinéraire personnalisé. Des filtres par durée ou par zone permettent de sélectionner dynamiquement les séjours adaptés.",
+      "tags": [
+        "catalogue-circuits",
+        "filtrage",
+        "sejours",
+        "conversion"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "La grille de cartes utilise des attributs data pour permettre le filtrage côté client par le script partagé."
+    },
+    {
+      "id": "file:contact.html",
+      "type": "file",
+      "name": "contact.html",
+      "filePath": "contact.html",
+      "summary": "Regroupe les moyens de contacter l’agence par WhatsApp, courriel ou formulaire afin de préparer un séjour à Sumba. Un script intégré construit un message à partir des informations saisies et facilite la prise de contact.",
+      "tags": [
+        "contact",
+        "formulaire",
+        "prospection",
+        "conversion"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "La page combine le comportement JavaScript commun avec une logique intégrée propre au formulaire de contact."
+    },
+    {
+      "id": "file:css/style.css",
+      "type": "file",
+      "name": "style.css",
+      "filePath": "css/style.css",
+      "summary": "Définit l’identité visuelle et les composants responsifs communs à tout le site : navigation fixe, héros, cartes, carte interactive, articles, grilles, tarifs et pied de page. La feuille centralise les couleurs naturelles, les polices et les comportements mobiles de Sumba Nusantara.",
+      "tags": [
+        "feuille-de-style",
+        "design-system",
+        "mise-en-page-responsive",
+        "composants-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Le style repose sur des variables CSS globales, des grilles responsives et des classes réutilisables partagées par les nombreuses pages statiques."
+    },
+    {
+      "id": "file:decouvrir-centre.html",
+      "type": "file",
+      "name": "decouvrir-centre.html",
+      "filePath": "decouvrir-centre.html",
+      "summary": "Guide la découverte du Centre de Sumba autour de Waikabubak, des mégalithes d’Anakalang et des cascades de Lapopu et Matayangu. La page combine présentation des lieux, conseils de déplacement et renvois vers des services locaux.",
+      "tags": [
+        "guide-destination",
+        "centre-sumba",
+        "megalithes",
+        "cascades"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:decouvrir-est.html",
+      "type": "file",
+      "name": "decouvrir-est.html",
+      "filePath": "decouvrir-est.html",
+      "summary": "Présente l’Est de Sumba autour de Waingapu, avec les collines de Wairinding, Walakiri, Tanggedu, Puru Kambera, Waimarang et Koalat. Elle sert de guide régional et relie les sites à des options de scooter, de chauffeur et de sortie organisée.",
+      "tags": [
+        "guide-destination",
+        "est-sumba",
+        "savanes",
+        "cascades"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:decouvrir-ouest.html",
+      "type": "file",
+      "name": "decouvrir-ouest.html",
+      "filePath": "decouvrir-ouest.html",
+      "summary": "Guide complet de l’Ouest de Sumba, couvrant Ratenggaro, Weekuri, les cascades, plages et villages proches de Tambolaka et Waikabubak. Il agrège de nombreux liens vers les fiches de lieux et les services utiles sur place.",
+      "tags": [
+        "guide-destination",
+        "ouest-sumba",
+        "villages",
+        "catalogue-lieux"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:decouvrir-sud.html",
+      "type": "file",
+      "name": "decouvrir-sud.html",
+      "filePath": "decouvrir-sud.html",
+      "summary": "Présente le Sud de Sumba à travers Tarimbang, Praiyawang, Melolo, Watuparunu et Watu Hadang. La page valorise une côte moins fréquentée, les villages de tisserands et des activités comme le bateau ou la pêche.",
+      "tags": [
+        "guide-destination",
+        "sud-sumba",
+        "culture-ikat",
+        "cote-sauvage"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:decouvrir-sumba.html",
+      "type": "file",
+      "name": "decouvrir-sumba.html",
+      "filePath": "decouvrir-sumba.html",
+      "summary": "Constitue le portail principal de découverte de Sumba, structuré en quatre zones : Ouest, Centre, Est et Sud. Une carte interactive et des cartes thématiques orientent l’utilisateur vers les guides régionaux, les lieux et les services.",
+      "tags": [
+        "guide-destination",
+        "carte-interactive",
+        "navigation-regionale",
+        "portail-contenu"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "La carte repose sur des broches SVG et des panneaux associés par attributs data, pilotés par le JavaScript partagé."
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "Page d’accueil commerciale de Sumba Nusantara présentant l’île, les quatre zones, les circuits, les locations et les principaux services de l’agence. Elle sert de point d’entrée vers l’ensemble du parcours de découverte et de réservation.",
+      "tags": [
+        "page-accueil",
+        "agence-voyage",
+        "navigation-principale",
+        "conversion"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:js/main.js",
+      "type": "file",
+      "name": "main.js",
+      "filePath": "js/main.js",
+      "summary": "Fournit les interactions partagées du site : adaptation de l’en-tête au défilement, révélation progressive des éléments, filtrage des circuits et sélection des zones sur la carte interactive. Tout est initialisé après le chargement du DOM sans dépendance externe.",
+      "tags": [
+        "interactions-ui",
+        "evenements",
+        "filtrage",
+        "carte-interactive"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Le script utilise IntersectionObserver, des écouteurs DOM et des attributs data pour enrichir progressivement les pages statiques."
+    },
+    {
+      "id": "file:lieu-anakalang.html",
+      "type": "file",
+      "name": "lieu-anakalang.html",
+      "filePath": "lieu-anakalang.html",
+      "summary": "Fiche détaillée consacrée au site mégalithique d’Anakalang, à ses tombes royales et à son contexte culturel. Elle fournit l’histoire du lieu, les modalités d’accès, les activités sur place et des conseils pratiques.",
+      "tags": [
+        "fiche-lieu",
+        "anakalang",
+        "patrimoine-megalithique",
+        "conseils-visite"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-buku-bani.html",
+      "type": "file",
+      "name": "lieu-buku-bani.html",
+      "filePath": "lieu-buku-bani.html",
+      "summary": "Page de destination consacrée au village traditionnel de Buku Bani, où les prêtres Rato déterminent la date du Pasola. Elle présente son patrimoine funéraire, ses rites, son accès dans le secteur de Kodi et des conseils de visite.",
+      "tags": [
+        "destination-touristique",
+        "village-traditionnel",
+        "pasola",
+        "patrimoine-culturel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-hiliwuku.html",
+      "type": "file",
+      "name": "lieu-hiliwuku.html",
+      "filePath": "lieu-hiliwuku.html",
+      "summary": "Page de destination présentant Bukit Hiliwuku, une colline calme de l'Est de Sumba connue pour ses panoramas de savane et son ciel étoilé. Elle fournit des repères d'accès, des activités et des conseils saisonniers.",
+      "tags": [
+        "destination-touristique",
+        "colline",
+        "savane",
+        "observation-des-étoiles"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-kerewei.html",
+      "type": "file",
+      "name": "lieu-kerewei.html",
+      "filePath": "lieu-kerewei.html",
+      "summary": "Page de destination dédiée à Kerewei Beach, plage confidentielle du sud-ouest appréciée pour ses longues vagues régulières. Elle décrit les possibilités de surf et de baignade, l'accès par piste et les précautions liées au fond corallien.",
+      "tags": [
+        "destination-touristique",
+        "plage",
+        "surf",
+        "ouest-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-koalat.html",
+      "type": "file",
+      "name": "lieu-koalat.html",
+      "filePath": "lieu-koalat.html",
+      "summary": "Page de destination décrivant la cascade de Koalat près du village de Maidang, accessible après une randonnée avec traversée de rivière. Elle rassemble les indications pratiques et les précautions à prendre selon les pluies.",
+      "tags": [
+        "destination-touristique",
+        "cascade",
+        "randonnée",
+        "est-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-lambanapu.html",
+      "type": "file",
+      "name": "lieu-lambanapu.html",
+      "filePath": "lieu-lambanapu.html",
+      "summary": "Page de destination consacrée au site archéologique de Lambanapu et à ses vestiges austronésiens vieux d'environ 2 000 ans. Elle explique l'importance des fouilles, la conservation locale des objets et la nécessité d'organiser la visite avec un guide.",
+      "tags": [
+        "destination-touristique",
+        "archéologie",
+        "patrimoine-historique",
+        "est-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-lapopu.html",
+      "type": "file",
+      "name": "lieu-lapopu.html",
+      "filePath": "lieu-lapopu.html",
+      "summary": "Page de destination présentant Lapopu, grande cascade en escalier située à environ 90 minutes de Waikabubak. Elle détaille son histoire, son accès facile, les activités sur place et propose un service de location de scooter.",
+      "tags": [
+        "destination-touristique",
+        "cascade",
+        "nature",
+        "centre-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-lokomboro.html",
+      "type": "file",
+      "name": "lieu-lokomboro.html",
+      "filePath": "lieu-lokomboro.html",
+      "summary": "Page de destination consacrée à la cascade isolée de Lokomboro, également liée à une petite installation hydroélectrique locale. Elle décrit l'itinéraire non balisé, le passage sur un pont de bambou et l'intérêt de réserver un guide.",
+      "tags": [
+        "destination-touristique",
+        "cascade",
+        "hors-des-sentiers-battus",
+        "ouest-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-mananga-aba.html",
+      "type": "file",
+      "name": "lieu-mananga-aba.html",
+      "filePath": "lieu-mananga-aba.html",
+      "summary": "Page de destination présentant Mananga Aba, une plage sauvage et peu fréquentée de la côte sud-ouest. Elle la positionne comme une halte complémentaire à Ratenggaro et Mandorak et recommande un accompagnement local faute de signalisation.",
+      "tags": [
+        "destination-touristique",
+        "plage",
+        "hors-des-sentiers-battus",
+        "ouest-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-mandorak.html",
+      "type": "file",
+      "name": "lieu-mandorak.html",
+      "filePath": "lieu-mandorak.html",
+      "summary": "Page de destination décrivant Pantai Mandorak, une crique encadrée de falaises calcaires et façonnée par l'érosion sur la côte nord-ouest. Elle présente le paysage, les vagues, l'accès final à pied et l'organisation d'une sortie dédiée.",
+      "tags": [
+        "destination-touristique",
+        "plage",
+        "falaises-calcaires",
+        "surf"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-manola.html",
+      "type": "file",
+      "name": "lieu-manola.html",
+      "filePath": "lieu-manola.html",
+      "summary": "Page de destination consacrée au village perché de Manola et à la tradition orale de ses habitants, descendants revendiqués du mont Yawila. Elle situe le village au sud de Tambolaka et rappelle les règles de respect lors d'une visite.",
+      "tags": [
+        "destination-touristique",
+        "village-traditionnel",
+        "tradition-orale",
+        "ouest-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-marosi.html",
+      "type": "file",
+      "name": "lieu-marosi.html",
+      "filePath": "lieu-marosi.html",
+      "summary": "Page de destination présentant Pantai Marosi, plage aux arches rocheuses visible surtout à marée basse et spot de surf reconnu. Elle explique l'accès depuis le village, les usages locaux du littoral et les précautions liées aux marées.",
+      "tags": [
+        "destination-touristique",
+        "plage",
+        "surf",
+        "marée-basse"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-matayangu.html",
+      "type": "file",
+      "name": "lieu-matayangu.html",
+      "filePath": "lieu-matayangu.html",
+      "summary": "Page de destination dédiée aux trois chutes de Matayangu, un site sauvage et sacré dans la tradition Marapu. Elle détaille la piste difficile, la longue marche depuis le secteur de Lapopu, les traversées de rivière et le besoin d'un guide ou d'un 4x4.",
+      "tags": [
+        "destination-touristique",
+        "cascade",
+        "randonnée",
+        "spiritualité-marapu"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-mbawana.html",
+      "type": "file",
+      "name": "lieu-mbawana.html",
+      "filePath": "lieu-mbawana.html",
+      "summary": "Page de destination consacrée à Mbawana Beach et à sa grande arche de pierre sur la côte de Kodi. Elle présente le paysage côtier, les conditions routières, la descente raide vers la plage et les informations pratiques sur place.",
+      "tags": [
+        "destination-touristique",
+        "plage",
+        "arche-rocheuse",
+        "kodi"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-melolo.html",
+      "type": "file",
+      "name": "lieu-melolo.html",
+      "filePath": "lieu-melolo.html",
+      "summary": "Page de destination présentant Melolo comme base de passage vers Praiyawang et les activités du sud-est de Sumba. Elle développe surtout l'histoire, les symboles, la fabrication et la valeur rituelle du tissage ikat local.",
+      "tags": [
+        "destination-touristique",
+        "tissage-ikat",
+        "artisanat-local",
+        "sud-est-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-ndapayami.html",
+      "type": "file",
+      "name": "lieu-ndapayami.html",
+      "filePath": "lieu-ndapayami.html",
+      "summary": "Page de destination décrivant Bukit Ndapayami, une crête venteuse offrant une vue à 360 degrés sur la savane près de Wairinding. Elle indique comment combiner les deux sites et avertit des fortes rafales sur les bords.",
+      "tags": [
+        "destination-touristique",
+        "point-de-vue",
+        "savane",
+        "est-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-palindi-piarakuku.html",
+      "type": "file",
+      "name": "lieu-palindi-piarakuku.html",
+      "filePath": "lieu-palindi-piarakuku.html",
+      "summary": "Page de destination consacrée aux collines calcaires de Palindi Piarakuku, panorama encore peu fréquenté de l'Est de Sumba. Elle décrit les changements de couleur saisonniers et suggère de l'associer à Wairinding et Walakiri.",
+      "tags": [
+        "destination-touristique",
+        "collines-calcaires",
+        "panorama",
+        "est-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-pantai-kita.html",
+      "type": "file",
+      "name": "lieu-pantai-kita.html",
+      "filePath": "lieu-pantai-kita.html",
+      "summary": "Page de destination présentant Pantai Kita, plage proche de Tambolaka adaptée à une halte au coucher du soleil. Elle met en avant ses bassins naturels à marée basse et conseille de vérifier les horaires de marée.",
+      "tags": [
+        "destination-touristique",
+        "plage",
+        "coucher-de-soleil",
+        "marée-basse"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-pasola-kodi.html",
+      "type": "file",
+      "name": "lieu-pasola-kodi.html",
+      "filePath": "lieu-pasola-kodi.html",
+      "summary": "Page de destination culturelle expliquant le Pasola de Kodi, combat rituel équestre organisé selon le calendrier lunaire et l'apparition des Nyale. Elle décrit le rôle des prêtres Rato, le caractère imprévisible des dates et les règles pour y assister respectueusement.",
+      "tags": [
+        "destination-touristique",
+        "pasola",
+        "rituel-équestre",
+        "culture-marapu"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-pero.html",
+      "type": "file",
+      "name": "lieu-pero.html",
+      "filePath": "lieu-pero.html",
+      "summary": "Page de destination consacrée à Pero, village de pêcheurs majoritairement musulman dans le secteur de Kodi. Elle présente ses barques colorées, sa diversité culturelle et son intérêt comme halte entre Ratenggaro et Weekuri.",
+      "tags": [
+        "destination-touristique",
+        "village-de-pêcheurs",
+        "diversité-culturelle",
+        "kodi"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-praigoli.html",
+      "type": "file",
+      "name": "lieu-praigoli.html",
+      "filePath": "lieu-praigoli.html",
+      "summary": "Page de destination présentant Praigoli, village au sud de Waikabubak pouvant accueillir le Pasola. Elle évoque la pierre tombale légendaire Watu Kajiwa, l'accès depuis le centre de l'île et la variation annuelle du lieu du rituel.",
+      "tags": [
+        "destination-touristique",
+        "village-traditionnel",
+        "pasola",
+        "patrimoine-funéraire"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-praijing.html",
+      "type": "file",
+      "name": "lieu-praijing.html",
+      "filePath": "lieu-praijing.html",
+      "summary": "Page de destination consacrée au village traditionnel de Praijing, facilement accessible depuis Waikabubak. Elle explique l'architecture symbolique des maisons, les croyances Marapu, la reconstruction après un incendie et la reconnaissance touristique du village.",
+      "tags": [
+        "destination-touristique",
+        "village-traditionnel",
+        "architecture-vernaculaire",
+        "culture-marapu"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-prailiang.html",
+      "type": "file",
+      "name": "lieu-prailiang.html",
+      "filePath": "lieu-prailiang.html",
+      "summary": "Page de destination décrivant Prailiang, village de l'Est bâti sur une colline rocheuse pour se protéger autrefois des marchands d'esclaves. Elle présente ses maisons, ses tombes de pierre et son artisanat de petites sculptures en bois.",
+      "tags": [
+        "destination-touristique",
+        "village-traditionnel",
+        "patrimoine-historique",
+        "artisanat-du-bois"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-praiyawang.html",
+      "type": "file",
+      "name": "lieu-praiyawang.html",
+      "filePath": "lieu-praiyawang.html",
+      "summary": "Page de destination présentant le village de Praiyawang près de Rende, connu pour ses tombes royales mégalithiques et son tissage ikat. Elle évoque les traditions locales, la transmission des motifs et l'achat direct auprès des artisans.",
+      "tags": [
+        "destination-touristique",
+        "village-traditionnel",
+        "tissage-ikat",
+        "tombes-mégalithiques"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-purukambera.html",
+      "type": "file",
+      "name": "lieu-purukambera.html",
+      "filePath": "lieu-purukambera.html",
+      "summary": "Page de destination consacrée à la savane de Puru Kambera dans le nord-est de Sumba, fréquentée par des chevaux semi-sauvages. Elle présente aussi sa plage bordée de pins, les variations saisonnières du paysage et une offre de location de quad.",
+      "tags": [
+        "destination-touristique",
+        "savane",
+        "chevaux-semi-sauvages",
+        "est-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-ratenggaro.html",
+      "type": "file",
+      "name": "lieu-ratenggaro.html",
+      "filePath": "lieu-ratenggaro.html",
+      "summary": "Page touristique consacrée au village traditionnel de Ratenggaro, à ses maisons aux hauts toits coniques et à ses tombes mégalithiques face à l’océan. Elle fournit histoire, accès, activités, conseils de visite et renvoie vers la location de scooter à Tambolaka.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "village-traditionnel",
+        "culture-marapu",
+        "location-scooter"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-sel-katewel.html",
+      "type": "file",
+      "name": "lieu-sel-katewel.html",
+      "filePath": "lieu-sel-katewel.html",
+      "summary": "Page de découverte de la production artisanale de sel près de Katewel, dans l’Ouest de Sumba. Elle présente ce savoir-faire local, les conditions d’accès, les activités possibles et recommande l’accompagnement d’un guide.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "artisanat-local",
+        "production-de-sel",
+        "visite-guidee"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-talasi.html",
+      "type": "file",
+      "name": "lieu-talasi.html",
+      "filePath": "lieu-talasi.html",
+      "summary": "Page touristique présentant Talasi Estate, une exploitation familiale de noix de cajou et de café proche de Tambolaka. Elle met en avant la visite de la production et la dégustation comme étape gourmande dans l’Ouest de Sumba.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "agrotourisme",
+        "cafe",
+        "noix-de-cajou"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-tanarara.html",
+      "type": "file",
+      "name": "lieu-tanarara.html",
+      "filePath": "lieu-tanarara.html",
+      "summary": "Guide de visite de Tanarara Hill, colline de savane de l’Est de Sumba présentée comme une alternative plus calme à Wairinding. La page détaille l’accès depuis Waingapu, les activités, la meilleure saison et une option de location de scooter.",
+      "tags": [
+        "page-touristique",
+        "est-sumba",
+        "colline-de-savane",
+        "point-de-vue",
+        "location-scooter"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-tanggedu.html",
+      "type": "file",
+      "name": "lieu-tanggedu.html",
+      "filePath": "lieu-tanggedu.html",
+      "summary": "Page de destination dédiée à la cascade de Tanggedu, surnommée le Grand Canyon de Sumba pour ses bassins et paliers rocheux. Elle décrit son intérêt naturel, son histoire, l’accès, la baignade et l’option d’un chauffeur privé à la journée.",
+      "tags": [
+        "page-touristique",
+        "est-sumba",
+        "cascade",
+        "baignade",
+        "chauffeur-prive"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-tanjung-mareha.html",
+      "type": "file",
+      "name": "lieu-tanjung-mareha.html",
+      "filePath": "lieu-tanjung-mareha.html",
+      "summary": "Page touristique sur Tanjung Mareha, promontoire de Kodi offrant une vue simultanée sur Mbawana Beach et les falaises de Maladong. Elle indique comment s’y rendre depuis Tambolaka et conseille une visite au lever ou au coucher du soleil.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "point-de-vue",
+        "littoral",
+        "coucher-de-soleil"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-tarimbang.html",
+      "type": "file",
+      "name": "lieu-tarimbang.html",
+      "filePath": "lieu-tarimbang.html",
+      "summary": "Guide de destination consacré à la baie sauvage et au spot de surf de Tarimbang, dans le Sud de Sumba. Il présente l’histoire du lieu, les conditions d’accès, les activités nautiques, la meilleure saison et un service de chauffeur privé.",
+      "tags": [
+        "page-touristique",
+        "sud-sumba",
+        "plage",
+        "surf",
+        "chauffeur-prive"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-tarung.html",
+      "type": "file",
+      "name": "lieu-tarung.html",
+      "filePath": "lieu-tarung.html",
+      "summary": "Page culturelle sur le village de Tarung, capitale cérémonielle de l’Ouest de Sumba et centre important de la religion Marapu. Elle explique l’intérêt historique et spirituel du site, les règles de visite et l’accès depuis Waikabubak en scooter.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "village-traditionnel",
+        "culture-marapu",
+        "patrimoine"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-tenau.html",
+      "type": "file",
+      "name": "lieu-tenau.html",
+      "filePath": "lieu-tenau.html",
+      "summary": "Page de visite de Bukit Tenau, colline de savane facilement accessible à environ six kilomètres de Waingapu. Elle en fait une sortie courte pour profiter des paysages de l’Est de Sumba et du coucher de soleil.",
+      "tags": [
+        "page-touristique",
+        "est-sumba",
+        "colline-de-savane",
+        "point-de-vue",
+        "coucher-de-soleil"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-waigali.html",
+      "type": "file",
+      "name": "lieu-waigali.html",
+      "filePath": "lieu-waigali.html",
+      "summary": "Page culturelle consacrée au village perché de Waigali, lié à l’origine légendaire du Pasola. Elle renseigne sur la visite, l’accès depuis Waikabubak et le festival local Bijalungu Hiu Paana organisé en début d’année.",
+      "tags": [
+        "page-touristique",
+        "centre-sumba",
+        "village-traditionnel",
+        "pasola",
+        "festival-local"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-waikelo-sawah.html",
+      "type": "file",
+      "name": "lieu-waikelo-sawah.html",
+      "filePath": "lieu-waikelo-sawah.html",
+      "summary": "Page de découverte de Waikelo Sawah, cascade et grotte situées au milieu des rizières dans l’Ouest de Sumba. Elle distingue le site du village portuaire homonyme et fournit les informations d’accès, de marche et de visite.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "cascade",
+        "grotte",
+        "rizieres"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-waikelo.html",
+      "type": "file",
+      "name": "lieu-waikelo.html",
+      "filePath": "lieu-waikelo.html",
+      "summary": "Page touristique sur Waikelo, ancien village portuaire de l’Ouest de Sumba situé près de Tambolaka. Elle présente son rôle historique, son ambiance maritime et la communauté Bugis qui marque l’identité locale.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "village-portuaire",
+        "communaute-bugis",
+        "patrimoine"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-wailang.html",
+      "type": "file",
+      "name": "lieu-wailang.html",
+      "filePath": "lieu-wailang.html",
+      "summary": "Page culturelle sur Wailang, village traditionnel réellement habité du secteur de Waikabubak. Elle privilégie une découverte respectueuse de la vie quotidienne, explique l’accès et rappelle les usages à observer sur place.",
+      "tags": [
+        "page-touristique",
+        "centre-sumba",
+        "village-traditionnel",
+        "vie-locale",
+        "tourisme-responsable"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-waimarang.html",
+      "type": "file",
+      "name": "lieu-waimarang.html",
+      "filePath": "lieu-waimarang.html",
+      "summary": "Page de destination consacrée à la cascade turquoise de Waimarang, découverte récemment dans l’Est de Sumba et associée à une légende locale. Elle détaille l’histoire, l’accès, la baignade, la saison conseillée et une formule avec chauffeur privé.",
+      "tags": [
+        "page-touristique",
+        "est-sumba",
+        "cascade",
+        "baignade",
+        "chauffeur-prive"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-wairinding.html",
+      "type": "file",
+      "name": "lieu-wairinding.html",
+      "filePath": "lieu-wairinding.html",
+      "summary": "Guide des collines de Wairinding, paysage de savane emblématique de l’Est de Sumba apprécié au coucher du soleil. La page combine contexte culturel et cinématographique, conseils pratiques et promotion d’une balade à cheval.",
+      "tags": [
+        "page-touristique",
+        "est-sumba",
+        "colline-de-savane",
+        "coucher-de-soleil",
+        "balade-a-cheval"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-walakiri.html",
+      "type": "file",
+      "name": "lieu-walakiri.html",
+      "filePath": "lieu-walakiri.html",
+      "summary": "Page touristique dédiée à la plage de Walakiri et à ses mangroves surnommées les arbres dansants. Elle explique ce phénomène visuel, conseille la visite au coucher du soleil et renvoie vers la location de scooter à Waingapu.",
+      "tags": [
+        "page-touristique",
+        "est-sumba",
+        "plage",
+        "mangrove",
+        "coucher-de-soleil"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-waruwora.html",
+      "type": "file",
+      "name": "lieu-waruwora.html",
+      "filePath": "lieu-waruwora.html",
+      "summary": "Page de découverte du village traditionnel de Waru Wora, construit au bord d’une falaise dans le secteur de Watu Bella. Elle décrit la singularité du site, l’accès, les activités et les règles de respect envers la communauté.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "village-traditionnel",
+        "falaise",
+        "tourisme-responsable"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-watu-hadang.html",
+      "type": "file",
+      "name": "lieu-watu-hadang.html",
+      "filePath": "lieu-watu-hadang.html",
+      "summary": "Page culturelle sur le village de Watu Hadang, près de Melolo dans le Sud-Est de Sumba. Elle présente l’architecture traditionnelle, l’étiquette des deux portes des maisons et les démonstrations locales de teinture ikat.",
+      "tags": [
+        "page-touristique",
+        "sud-est-sumba",
+        "village-traditionnel",
+        "artisanat-ikat",
+        "etiquette-locale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-watubella.html",
+      "type": "file",
+      "name": "lieu-watubella.html",
+      "filePath": "lieu-watubella.html",
+      "summary": "Page de destination sur Pantai Watu Bella, petite anse préservée à l’eau claire accessible par le village de Patiala Bala. Elle fournit les informations de trajet depuis Tambolaka, les activités de plage et les précautions de visite.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "plage",
+        "baignade",
+        "site-preserve"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-watuparunu.html",
+      "type": "file",
+      "name": "lieu-watuparunu.html",
+      "filePath": "lieu-watuparunu.html",
+      "summary": "Page touristique consacrée à Watuparunu Beach, plage peu fréquentée du Sud-Est de Sumba aux eaux turquoise. Elle met en avant la baignade, le sable blanc et un rocher accessible offrant une vue sur la baie.",
+      "tags": [
+        "page-touristique",
+        "sud-est-sumba",
+        "plage",
+        "baignade",
+        "point-de-vue"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-weekacura.html",
+      "type": "file",
+      "name": "lieu-weekacura.html",
+      "filePath": "lieu-weekacura.html",
+      "summary": "Guide de visite de la cascade de Weekacura, chute encaissée au milieu des rizières de l’Ouest de Sumba. Il décrit son histoire, son accès par piste, la période favorable et propose un chauffeur privé pour cette excursion d’une demi-journée.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "cascade",
+        "rizieres",
+        "chauffeur-prive"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-weekuri.html",
+      "type": "file",
+      "name": "lieu-weekuri.html",
+      "filePath": "lieu-weekuri.html",
+      "summary": "Page de destination dédiée au lagon de Weekuri, bassin turquoise protégé de l’océan par une barrière de corail. Elle présente son histoire, l’accès, les activités de baignade, les conseils pratiques et la location de scooter depuis Tambolaka.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "lagon",
+        "baignade",
+        "location-scooter"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lieu-welimbu.html",
+      "type": "file",
+      "name": "lieu-welimbu.html",
+      "filePath": "lieu-welimbu.html",
+      "summary": "Page touristique sur Gua Welimbu, grotte confidentielle située près du lagon de Weekuri et abritant une eau bleue au fond d’un gouffre naturel. Elle précise le trajet, la courte marche finale, les activités et les précautions de sécurité.",
+      "tags": [
+        "page-touristique",
+        "ouest-sumba",
+        "grotte",
+        "site-naturel",
+        "aventure"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-quad.html",
+      "type": "file",
+      "name": "location-quad.html",
+      "filePath": "location-quad.html",
+      "summary": "Page commerciale de location de quad pour explorer les pistes, rizières, collines et cascades de Sumba, avec ou sans guide. Elle détaille les tarifs, exemples de sorties, modalités de retrait, équipement inclus et conditions pratiques.",
+      "tags": [
+        "page-service",
+        "location-quad",
+        "excursion",
+        "guide-local",
+        "tarification"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-scooter-tambolaka.html",
+      "type": "file",
+      "name": "location-scooter-tambolaka.html",
+      "filePath": "location-scooter-tambolaka.html",
+      "summary": "Page commerciale de location de scooters à Tambolaka, pensée pour une prise en charge dès l'aéroport et l'exploration de l'ouest de Sumba. Elle présente les tarifs, les casques inclus, la livraison et la restitution dans une autre ville.",
+      "tags": [
+        "location-scooter",
+        "tambolaka",
+        "mobilite",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-scooter-waikabubak.html",
+      "type": "file",
+      "name": "location-scooter-waikabubak.html",
+      "filePath": "location-scooter-waikabubak.html",
+      "summary": "Page de location de scooters au départ de Waikabubak, positionnée comme base centrale pour visiter l'ouest et le centre de Sumba. Elle détaille les prix, les conditions, la livraison et l'option d'aller simple entre villes.",
+      "tags": [
+        "location-scooter",
+        "waikabubak",
+        "mobilite",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-scooter-waingapu.html",
+      "type": "file",
+      "name": "location-scooter-waingapu.html",
+      "filePath": "location-scooter-waingapu.html",
+      "summary": "Page de location de scooters à Waingapu pour accéder rapidement aux paysages et sites de l'est de Sumba, notamment Wairinding et Walakiri. Elle expose les tarifs, la caution, la livraison à l'aéroport et la restitution dans une autre ville.",
+      "tags": [
+        "location-scooter",
+        "waingapu",
+        "mobilite",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-scooter.html",
+      "type": "file",
+      "name": "location-scooter.html",
+      "filePath": "location-scooter.html",
+      "summary": "Page d'ensemble du service de location de scooters à Sumba, avec choix du point de retrait entre Tambolaka, Waikabubak et Waingapu. Elle explique les tarifs, les conditions de conduite et la possibilité d'un aller simple entre les trois agences.",
+      "tags": [
+        "location-scooter",
+        "mobilite",
+        "comparatif-villes",
+        "service-touristique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-voiture-tambolaka.html",
+      "type": "file",
+      "name": "location-voiture-tambolaka.html",
+      "filePath": "location-voiture-tambolaka.html",
+      "summary": "Page de location de voitures à Tambolaka, avec ou sans chauffeur, destinée aux familles et groupes explorant l'ouest de Sumba. Elle décrit la livraison à l'aéroport, l'aller simple, les modèles disponibles et les conditions de circulation locales.",
+      "tags": [
+        "location-voiture",
+        "tambolaka",
+        "chauffeur",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-voiture-waikabubak.html",
+      "type": "file",
+      "name": "location-voiture-waikabubak.html",
+      "filePath": "location-voiture-waikabubak.html",
+      "summary": "Page de location de voitures depuis Waikabubak pour rayonner vers les cascades du centre et les villages de l'ouest. Elle compare la conduite autonome et la formule avec chauffeur, puis précise les véhicules, la livraison et l'aller simple.",
+      "tags": [
+        "location-voiture",
+        "waikabubak",
+        "chauffeur",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-voiture-waingapu.html",
+      "type": "file",
+      "name": "location-voiture-waingapu.html",
+      "filePath": "location-voiture-waingapu.html",
+      "summary": "Page de location de voitures à Waingapu pour parcourir les longues distances de l'est et du sud de Sumba. Elle présente les formules avec ou sans chauffeur, les modèles, la livraison à l'aéroport et les recommandations selon l'état des routes.",
+      "tags": [
+        "location-voiture",
+        "waingapu",
+        "chauffeur",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:location-voiture.html",
+      "type": "file",
+      "name": "location-voiture.html",
+      "filePath": "location-voiture.html",
+      "summary": "Page d'ensemble de la location de voitures à Sumba, avec retrait à Tambolaka, Waikabubak ou Waingapu et choix entre conduite autonome ou chauffeur. Elle oriente les voyageurs selon leur groupe, leur itinéraire et les contraintes des routes de l'île.",
+      "tags": [
+        "location-voiture",
+        "mobilite",
+        "chauffeur",
+        "service-touristique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:navette-aeroport.html",
+      "type": "file",
+      "name": "navette-aeroport.html",
+      "filePath": "navette-aeroport.html",
+      "summary": "Page centrale du service de transfert aéroport-hôtel disponible en continu à Sumba. Elle permet de choisir entre les aéroports de Tambolaka et Waingapu et explique la prise en charge par un chauffeur, y compris pour les vols de nuit.",
+      "tags": [
+        "navette-aeroport",
+        "transfert",
+        "chauffeur",
+        "service-touristique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:navette-tambolaka.html",
+      "type": "file",
+      "name": "navette-tambolaka.html",
+      "filePath": "navette-tambolaka.html",
+      "summary": "Page de réservation d'un transfert depuis l'aéroport de Tambolaka, avec accueil à la sortie et disponibilité 24 h sur 24. Elle vise les arrivées dans l'ouest de Sumba et précise le fonctionnement pratique de la navette privée.",
+      "tags": [
+        "navette-aeroport",
+        "tambolaka",
+        "transfert",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:navette-waingapu.html",
+      "type": "file",
+      "name": "navette-waingapu.html",
+      "filePath": "navette-waingapu.html",
+      "summary": "Page de réservation d'un transfert depuis l'aéroport de Waingapu, assuré par un chauffeur à toute heure. Elle couvre l'accueil des voyageurs arrivant dans l'est de Sumba et les modalités de transport jusqu'à leur hébergement.",
+      "tags": [
+        "navette-aeroport",
+        "waingapu",
+        "transfert",
+        "page-commerciale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:observation-oiseaux.html",
+      "type": "file",
+      "name": "observation-oiseaux.html",
+      "filePath": "observation-oiseaux.html",
+      "summary": "Page consacrée aux sorties ornithologiques à Sumba, île qui abrite près de 200 espèces et de nombreux oiseaux endémiques. Elle présente une excursion à la journée accompagnée par un guide local et les conditions favorables à l'observation.",
+      "tags": [
+        "observation-oiseaux",
+        "ecotourisme",
+        "faune-endemique",
+        "excursion-guidee"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:peche-en-mer.html",
+      "type": "file",
+      "name": "peche-en-mer.html",
+      "filePath": "peche-en-mer.html",
+      "summary": "Page présentant une matinée de pêche traditionnelle avec un pêcheur local au départ des villages côtiers du sud-ouest de Sumba, près de Nihiwatu. Elle met en avant une expérience maritime locale plutôt qu'une sortie de pêche sportive standardisée.",
+      "tags": [
+        "peche-en-mer",
+        "experience-locale",
+        "sud-ouest",
+        "excursion-guidee"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plages.html",
+      "type": "file",
+      "name": "plages.html",
+      "filePath": "plages.html",
+      "summary": "Guide thématique des principales plages de Sumba, dont Ratenggaro, Mandorak, Walakiri et Mbawana. La page aide à distinguer les criques isolées, les paysages emblématiques et les zones adaptées au surf ou aux activités nautiques.",
+      "tags": [
+        "guide-touristique",
+        "plages",
+        "littoral",
+        "decouverte-sumba"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:plongee-snorkeling.html",
+      "type": "file",
+      "name": "plongee-snorkeling.html",
+      "filePath": "plongee-snorkeling.html",
+      "summary": "Page de présentation des possibilités de plongée et de snorkeling à Sumba, encore limitées et organisées sur demande. Elle pose des attentes réalistes en fonction de la météo, des spots accessibles et des prestataires disponibles.",
+      "tags": [
+        "plongee",
+        "snorkeling",
+        "activite-nautique",
+        "sur-demande"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:services.html",
+      "type": "file",
+      "name": "services.html",
+      "filePath": "services.html",
+      "summary": "Catalogue des services à la carte de l'agence, réunissant location de véhicules, transferts, chauffeur privé, excursions et activités de plein air. Cette page sert de point d'orientation vers douze prestations réservables seules ou en complément d'un circuit.",
+      "tags": [
+        "catalogue-services",
+        "agence-locale",
+        "reservation",
+        "page-carrefour"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:sorties-journee.html",
+      "type": "file",
+      "name": "sorties-journee.html",
+      "filePath": "sorties-journee.html",
+      "summary": "Page commerciale d'excursions à la journée couvrant cinq zones de Sumba avec véhicule, chauffeur et guide pour quatre personnes au maximum. Elle explique la tarification par véhicule et propose des itinéraires pour l'ouest, le nord, l'est, le nord-est et le sud.",
+      "tags": [
+        "excursion-journee",
+        "chauffeur-guide",
+        "itineraires",
+        "service-touristique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:surf.html",
+      "type": "file",
+      "name": "surf.html",
+      "filePath": "surf.html",
+      "summary": "Guide pratique du surf à Sumba distinguant les spots de l'ouest, comme Marosi et Kerewei, de Tarimbang au sud. Il décrit les niveaux requis, la saison, les cours possibles et la rareté du matériel de location sur l'île.",
+      "tags": [
+        "surf",
+        "spots-de-surf",
+        "conseils-pratiques",
+        "activite-nautique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:trek-randonnee.html",
+      "type": "file",
+      "name": "trek-randonnee.html",
+      "filePath": "trek-randonnee.html",
+      "summary": "Page proposant des randonnées accompagnées vers les cascades, paysages et villages isolés du centre et de l'est de Sumba. Elle met en avant le rôle du guide local pour l'orientation, l'accès aux sites et la compréhension du territoire.",
+      "tags": [
+        "randonnee",
+        "trek",
+        "guide-local",
+        "nature"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:villages.html",
+      "type": "file",
+      "name": "villages.html",
+      "filePath": "villages.html",
+      "summary": "Guide de huit villages traditionnels de Sumba, répartis entre l'ouest, le centre, le sud et l'est. Il valorise les maisons aux toits coniques, les tombes mégalithiques, la culture Marapu et le tissage ikat encore pratiqués dans des villages habités.",
+      "tags": [
+        "villages-traditionnels",
+        "culture-marapu",
+        "patrimoine",
+        "guide-touristique"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ville-tambolaka.html",
+      "type": "file",
+      "name": "ville-tambolaka.html",
+      "filePath": "ville-tambolaka.html",
+      "summary": "Guide urbain de Tambolaka et de Waitabula, porte d'entrée aérienne de l'ouest de Sumba. La page présente les points d'intérêt, les services utiles et les conseils permettant d'organiser la suite du séjour.",
+      "tags": [
+        "guide-ville",
+        "tambolaka",
+        "ouest-sumba",
+        "conseils-voyage"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ville-waikabubak.html",
+      "type": "file",
+      "name": "ville-waikabubak.html",
+      "filePath": "ville-waikabubak.html",
+      "summary": "Guide urbain de Waikabubak, capitale du centre de Sumba et base pour explorer les villages et paysages environnants. Il couvre notamment le marché Wai Laing, les visites proches et les aspects pratiques d'un séjour dans la ville.",
+      "tags": [
+        "guide-ville",
+        "waikabubak",
+        "centre-sumba",
+        "conseils-voyage"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:ville-waingapu.html",
+      "type": "file",
+      "name": "ville-waingapu.html",
+      "filePath": "ville-waingapu.html",
+      "summary": "Guide urbain de Waingapu, principale ville de l'est de Sumba. La page recommande le village de tisserands de Prailiu, le marché de nuit, Bukit Persaudaraan et d'autres repères utiles pour découvrir la région.",
+      "tags": [
+        "guide-ville",
+        "waingapu",
+        "est-sumba",
+        "conseils-voyage"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:a-propos.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:a-propos.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:bateau-riviere.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:bateau-riviere.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:bon-a-savoir.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:bon-a-savoir.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:cascades.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:cascades.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:chauffeur-prive.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:chauffeur-prive.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:chevaux-plage.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:chevaux-plage.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-est-4j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-est-4j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-4j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-4j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-5j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-5j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-centre-6j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-centre-6j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-est-8j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-ouest-est-8j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-sud-est-7j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-sud-est-7j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-tour-ile-10j.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuit-tour-ile-10j.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:contact.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:contact.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-centre.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-centre.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-est.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-est.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-ouest.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-ouest.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-sud.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-sud.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:lieu-anakalang.html",
+      "target": "file:css/style.css",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:lieu-anakalang.html",
+      "target": "file:js/main.js",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:decouvrir-sumba.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:circuits-sejours.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:contact.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:a-propos.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:bon-a-savoir.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:decouvrir-ouest.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:decouvrir-centre.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:decouvrir-est.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:decouvrir-sud.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-sumba.html",
+      "target": "file:cascades.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-centre.html",
+      "target": "file:lieu-anakalang.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-centre.html",
+      "target": "file:chauffeur-prive.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-ouest.html",
+      "target": "file:chevaux-plage.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-ouest.html",
+      "target": "file:circuit-ouest-4j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:decouvrir-sud.html",
+      "target": "file:bateau-riviere.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-ouest-4j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-ouest-5j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-ouest-centre-6j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-est-4j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-ouest-est-8j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-sud-est-7j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuits-sejours.html",
+      "target": "file:circuit-tour-ile-10j.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-est-4j.html",
+      "target": "file:decouvrir-est.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-ouest-4j.html",
+      "target": "file:decouvrir-ouest.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-ouest-5j.html",
+      "target": "file:decouvrir-ouest.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-ouest-centre-6j.html",
+      "target": "file:decouvrir-centre.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-ouest-centre-6j.html",
+      "target": "file:decouvrir-ouest.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-ouest-est-8j.html",
+      "target": "file:decouvrir-ouest.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-ouest-est-8j.html",
+      "target": "file:decouvrir-est.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-sud-est-7j.html",
+      "target": "file:decouvrir-sud.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-sud-est-7j.html",
+      "target": "file:bateau-riviere.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:circuit-tour-ile-10j.html",
+      "target": "file:decouvrir-sumba.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:a-propos.html",
+      "target": "file:contact.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:bon-a-savoir.html",
+      "target": "file:contact.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:bateau-riviere.html",
+      "target": "file:contact.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:chauffeur-prive.html",
+      "target": "file:contact.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:chevaux-plage.html",
+      "target": "file:contact.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:location-scooter.html",
+      "target": "file:location-scooter-tambolaka.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:location-scooter.html",
+      "target": "file:location-scooter-waikabubak.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:location-scooter.html",
+      "target": "file:location-scooter-waingapu.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:location-voiture.html",
+      "target": "file:location-voiture-tambolaka.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:location-voiture.html",
+      "target": "file:location-voiture-waikabubak.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:location-voiture.html",
+      "target": "file:location-voiture-waingapu.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:navette-aeroport.html",
+      "target": "file:navette-tambolaka.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:navette-aeroport.html",
+      "target": "file:navette-waingapu.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:location-scooter.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:location-voiture.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:navette-aeroport.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:observation-oiseaux.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:peche-en-mer.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:plongee-snorkeling.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:sorties-journee.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:surf.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:services.html",
+      "target": "file:trek-randonnee.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:plages.html",
+      "target": "file:surf.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:plages.html",
+      "target": "file:plongee-snorkeling.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:plages.html",
+      "target": "file:peche-en-mer.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:villages.html",
+      "target": "file:trek-randonnee.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:sorties-journee.html",
+      "target": "file:plages.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:sorties-journee.html",
+      "target": "file:villages.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-tambolaka.html",
+      "target": "file:location-scooter-tambolaka.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-tambolaka.html",
+      "target": "file:location-voiture-tambolaka.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-tambolaka.html",
+      "target": "file:navette-tambolaka.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-waikabubak.html",
+      "target": "file:location-scooter-waikabubak.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-waikabubak.html",
+      "target": "file:location-voiture-waikabubak.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-waingapu.html",
+      "target": "file:location-scooter-waingapu.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-waingapu.html",
+      "target": "file:location-voiture-waingapu.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:ville-waingapu.html",
+      "target": "file:navette-waingapu.html",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:entrees-conversion",
+      "name": "Entrées et conversion",
+      "description": "Réunit l’accueil, la présentation de Sumba Nusantara et la prise de contact qui structurent le parcours commercial principal du site.",
+      "nodeIds": [
+        "file:a-propos.html",
+        "file:contact.html",
+        "file:index.html"
+      ]
+    },
+    {
+      "id": "layer:circuits-sejours",
+      "name": "Circuits et séjours",
+      "description": "Présente le catalogue et le détail des circuits organisés de quatre à dix jours proposés dans les différentes régions de Sumba.",
+      "nodeIds": [
+        "file:circuit-est-4j.html",
+        "file:circuit-ouest-4j.html",
+        "file:circuit-ouest-5j.html",
+        "file:circuit-ouest-centre-6j.html",
+        "file:circuit-ouest-est-8j.html",
+        "file:circuit-sud-est-7j.html",
+        "file:circuit-tour-ile-10j.html",
+        "file:circuits-sejours.html"
+      ]
+    },
+    {
+      "id": "layer:services-activites",
+      "name": "Services et activités",
+      "description": "Commercialise les transports, locations, excursions guidées et activités de plein air réservables auprès de l’agence locale.",
+      "nodeIds": [
+        "file:bateau-riviere.html",
+        "file:chauffeur-prive.html",
+        "file:chevaux-plage.html",
+        "file:location-quad.html",
+        "file:location-scooter-tambolaka.html",
+        "file:location-scooter-waikabubak.html",
+        "file:location-scooter-waingapu.html",
+        "file:location-scooter.html",
+        "file:location-voiture-tambolaka.html",
+        "file:location-voiture-waikabubak.html",
+        "file:location-voiture-waingapu.html",
+        "file:location-voiture.html",
+        "file:navette-aeroport.html",
+        "file:navette-tambolaka.html",
+        "file:navette-waingapu.html",
+        "file:observation-oiseaux.html",
+        "file:peche-en-mer.html",
+        "file:plongee-snorkeling.html",
+        "file:services.html",
+        "file:sorties-journee.html",
+        "file:surf.html",
+        "file:trek-randonnee.html"
+      ]
+    },
+    {
+      "id": "layer:guides-destination",
+      "name": "Guides de destination",
+      "description": "Oriente la préparation du voyage au moyen de guides régionaux, urbains, thématiques et d’informations pratiques sur Sumba.",
+      "nodeIds": [
+        "file:bon-a-savoir.html",
+        "file:cascades.html",
+        "file:decouvrir-centre.html",
+        "file:decouvrir-est.html",
+        "file:decouvrir-ouest.html",
+        "file:decouvrir-sud.html",
+        "file:decouvrir-sumba.html",
+        "file:plages.html",
+        "file:villages.html",
+        "file:ville-tambolaka.html",
+        "file:ville-waikabubak.html",
+        "file:ville-waingapu.html"
+      ]
+    },
+    {
+      "id": "layer:fiches-lieux",
+      "name": "Fiches de lieux",
+      "description": "Documente individuellement les plages, cascades, villages, panoramas et sites culturels à visiter sur l’île.",
+      "nodeIds": [
+        "file:lieu-anakalang.html",
+        "file:lieu-buku-bani.html",
+        "file:lieu-hiliwuku.html",
+        "file:lieu-kerewei.html",
+        "file:lieu-koalat.html",
+        "file:lieu-lambanapu.html",
+        "file:lieu-lapopu.html",
+        "file:lieu-lokomboro.html",
+        "file:lieu-mananga-aba.html",
+        "file:lieu-mandorak.html",
+        "file:lieu-manola.html",
+        "file:lieu-marosi.html",
+        "file:lieu-matayangu.html",
+        "file:lieu-mbawana.html",
+        "file:lieu-melolo.html",
+        "file:lieu-ndapayami.html",
+        "file:lieu-palindi-piarakuku.html",
+        "file:lieu-pantai-kita.html",
+        "file:lieu-pasola-kodi.html",
+        "file:lieu-pero.html",
+        "file:lieu-praigoli.html",
+        "file:lieu-praijing.html",
+        "file:lieu-prailiang.html",
+        "file:lieu-praiyawang.html",
+        "file:lieu-purukambera.html",
+        "file:lieu-ratenggaro.html",
+        "file:lieu-sel-katewel.html",
+        "file:lieu-talasi.html",
+        "file:lieu-tanarara.html",
+        "file:lieu-tanggedu.html",
+        "file:lieu-tanjung-mareha.html",
+        "file:lieu-tarimbang.html",
+        "file:lieu-tarung.html",
+        "file:lieu-tenau.html",
+        "file:lieu-waigali.html",
+        "file:lieu-waikelo-sawah.html",
+        "file:lieu-waikelo.html",
+        "file:lieu-wailang.html",
+        "file:lieu-waimarang.html",
+        "file:lieu-wairinding.html",
+        "file:lieu-walakiri.html",
+        "file:lieu-waruwora.html",
+        "file:lieu-watu-hadang.html",
+        "file:lieu-watubella.html",
+        "file:lieu-watuparunu.html",
+        "file:lieu-weekacura.html",
+        "file:lieu-weekuri.html",
+        "file:lieu-welimbu.html"
+      ]
+    },
+    {
+      "id": "layer:interface-partagee",
+      "name": "Interface partagée",
+      "description": "Centralise la présentation responsive et les interactions JavaScript communes aux pages statiques du site.",
+      "nodeIds": [
+        "file:css/style.css",
+        "file:js/main.js"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Accueil et promesse",
+      "description": "Le parcours commence par la page d’accueil, véritable porte d’entrée commerciale de Sumba Nusantara. Elle présente l’île, résume les quatre grandes zones et oriente immédiatement vers les circuits, les locations et les services, ce qui révèle la double vocation du site : inspirer un voyage puis le convertir en demande de réservation.",
+      "nodeIds": [
+        "file:index.html"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Identité de l’agence",
+      "description": "Après la promesse générale, la page À propos donne un visage à l’offre en racontant l’histoire de l’agence et son ancrage local. Elle installe les valeurs de proximité, de responsabilité et d’accompagnement humain qui justifient le recours à Sumba Nusantara plutôt qu’à un simple catalogue touristique.",
+      "nodeIds": [
+        "file:a-propos.html"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Catalogue des circuits",
+      "description": "Le catalogue central organise sept séjours selon leur durée et leur zone, puis dirige vers des programmes détaillés. Les exemples de quatre, six et dix jours montrent la progression de l’offre : découverte ciblée de l’Ouest, combinaison Ouest-Centre, puis tour complet de l’île couvrant aussi l’Est et le Sud.",
+      "nodeIds": [
+        "file:circuits-sejours.html",
+        "file:circuit-ouest-4j.html",
+        "file:circuit-ouest-centre-6j.html",
+        "file:circuit-tour-ile-10j.html"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Services à la carte",
+      "description": "En complément des circuits, cette branche commercialise des prestations modulaires que le voyageur peut réserver seules ou intégrer à son séjour. Le chauffeur privé, la location de scooter et les excursions à la journée illustrent trois niveaux d’autonomie, du voyage entièrement accompagné à l’exploration individuelle.",
+      "nodeIds": [
+        "file:services.html",
+        "file:chauffeur-prive.html",
+        "file:location-scooter.html",
+        "file:sorties-journee.html"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Guides par région",
+      "description": "Le portail Découvrir Sumba structure la destination en quatre zones et sert de passerelle entre inspiration éditoriale et services locaux. Les guides de l’Ouest, du Centre, de l’Est et du Sud agrègent ensuite les lieux marquants de chaque région, les conseils de déplacement et les offres pertinentes à proximité.",
+      "nodeIds": [
+        "file:decouvrir-sumba.html",
+        "file:decouvrir-ouest.html",
+        "file:decouvrir-centre.html",
+        "file:decouvrir-est.html",
+        "file:decouvrir-sud.html"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Guides thématiques",
+      "description": "Une seconde voie d’exploration répond aux visiteurs qui raisonnent par besoin ou centre d’intérêt plutôt que par région. Les informations pratiques préparent le départ, tandis que les sélections de plages, cascades et villages permettent de comparer les expériences avant d’ouvrir une fiche détaillée.",
+      "nodeIds": [
+        "file:bon-a-savoir.html",
+        "file:plages.html",
+        "file:cascades.html",
+        "file:villages.html"
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Fiches de lieux",
+      "description": "Les fiches de destination constituent le niveau éditorial le plus précis du site : chacune rassemble contexte, accès, activités et conseils de visite. Weekuri, Ratenggaro, Lapopu, Wairinding et Walakiri forment un échantillon représentatif des lagons, villages, cascades, savanes et plages, avec des renvois commerciaux adaptés à leur localisation.",
+      "nodeIds": [
+        "file:lieu-weekuri.html",
+        "file:lieu-ratenggaro.html",
+        "file:lieu-lapopu.html",
+        "file:lieu-wairinding.html",
+        "file:lieu-walakiri.html"
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Contact et WhatsApp",
+      "description": "Après avoir aidé le visiteur à choisir une région, un circuit ou un service, le parcours converge vers la prise de contact. La page rassemble WhatsApp, le courriel et un formulaire dont le script compose un message à partir des informations saisies, réduisant ainsi la distance entre consultation et réservation.",
+      "nodeIds": [
+        "file:contact.html"
+      ],
+      "languageLesson": "Le formulaire utilise JavaScript côté navigateur pour transformer des champs structurés en message WhatsApp prérempli : aucune infrastructure serveur n’est nécessaire pour initier la conversation commerciale."
+    },
+    {
+      "order": 9,
+      "title": "Interface partagée",
+      "description": "La feuille de styles et le script communs donnent enfin sa cohérence technique à l’ensemble des pages statiques parcourues précédemment. Le CSS porte l’identité visuelle, les composants et l’adaptation mobile, tandis que JavaScript anime l’en-tête, révèle progressivement le contenu, filtre les circuits et pilote la carte des zones sans dépendance externe.",
+      "nodeIds": [
+        "file:css/style.css",
+        "file:js/main.js"
+      ],
+      "languageLesson": "Le code s’appuie sur le DOM natif et attend son chargement avant d’attacher les comportements communs ; cette approche convient à un site multipage statique léger et évite l’ajout d’un framework."
+    }
+  ]
+}
