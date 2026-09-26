@@ -545,3 +545,13 @@ footer{ background:var(--forest-deep); color:rgba(246,241,228,0.75); padding:80p
   .banner-media{ min-height:300px; }
   .breadcrumb{ overflow-wrap:anywhere; }
 }
+
+/* Affichage complémentaire des prix dans plusieurs devises */
+.price-alt{
+  display:block; margin-top:3px; color:var(--moss); opacity:.75;
+  font-family:var(--mono); font-size:12px; font-weight:400; letter-spacing:0;
+}
+.price-alt--inline{
+  display:inline; margin-left:6px; color:var(--moss); opacity:.75;
+  font-family:var(--mono); font-size:.82em;
+}
