@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const isEnglish = document.documentElement.lang === 'en';
+  const menuCopy = isEnglish
+    ? { open: 'Open menu', close: 'Close menu' }
+    : { open: 'Ouvrir le menu', close: 'Fermer le menu' };
   const header = document.getElementById('site-header');
   if (header) {
     const alwaysSolid = header.classList.contains('solid');
@@ -16,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       menuToggle.type = 'button';
       menuToggle.setAttribute('aria-controls', nav.id);
       menuToggle.setAttribute('aria-expanded', 'false');
-      menuToggle.setAttribute('aria-label', 'Ouvrir le menu');
+      menuToggle.setAttribute('aria-label', menuCopy.open);
       for (let i = 0; i < 3; i += 1) menuToggle.appendChild(document.createElement('span'));
       headerWrap.insertBefore(menuToggle, nav);
 
@@ -24,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         header.classList.toggle('menu-open', open);
         document.body.classList.toggle('menu-open', open);
         menuToggle.setAttribute('aria-expanded', String(open));
-        menuToggle.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+        menuToggle.setAttribute('aria-label', open ? menuCopy.close : menuCopy.open);
       };
 
       menuToggle.addEventListener('click', () => setMenuOpen(!header.classList.contains('menu-open')));
@@ -107,6 +111,24 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'Aéroport de Waingapu', type: 'airport', label: 'Aéroport', position: [-9.6677526, 120.3008069], description: "Navette et transfert depuis l'aéroport de Waingapu.", url: 'navette-waingapu.html' }
       ];
 
+      const englishPlaces = {
+        Tambolaka: { label: 'City', description: 'Gateway to western Sumba and the ideal starting point for exploring Kodi.' },
+        Waikabubak: { label: 'City', description: 'The cultural capital of western Sumba, surrounded by traditional villages.' },
+        Waingapu: { label: 'City', description: 'The main city in eastern Sumba, set between savannahs, beaches and hills.' },
+        'Lagon de Weekuri': { name: 'Weekuri Lagoon', label: 'Place to explore', description: 'A natural lagoon with turquoise water, separated from the ocean by rocks.' },
+        Ratenggaro: { label: 'Traditional village', description: 'Towering thatched roofs and megalithic tombs facing the ocean.' },
+        'Cascade de Lapopu': { name: 'Lapopu Waterfall', label: 'Waterfall', description: 'A tiered waterfall in the heart of Manupeu Tanah Daru National Park.' },
+        'Collines de Wairinding': { name: 'Wairinding Hills', label: 'Panorama', description: 'Rolling savannah hills that change colour with the seasons.' },
+        'Cascade de Tanggedu': { name: 'Tanggedu Waterfall', label: 'Waterfall', description: 'A mineral canyon carved by clear water in eastern Sumba.' },
+        'Plage de Walakiri': { name: 'Walakiri Beach', label: 'Beach', description: 'Famous for its miniature mangroves and sunsets.' },
+        'Plage de Tarimbang': { name: 'Tarimbang Beach', label: 'Beach', description: 'A vast wild bay in the south, bordered by hills and popular with surfers.' },
+        'Aéroport de Tambolaka': { name: 'Tambolaka Airport', label: 'Airport', description: 'Shuttle and transfer service from Tambolaka Airport.' },
+        'Aéroport de Waingapu': { name: 'Waingapu Airport', label: 'Airport', description: 'Shuttle and transfer service from Waingapu Airport.' }
+      };
+      if (isEnglish) {
+        places.forEach((place) => Object.assign(place, englishPlaces[place.name] || {}));
+      }
+
       // La carte doit être visible avant le calcul automatique de son cadrage.
       mapBlock.classList.add('map-enhanced');
       const map = L.map(mapElement, {
@@ -138,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="sumba-map-popup__type">${place.label}</span>
             <h3>${place.name}</h3>
             <p>${place.description}</p>
-            <a href="${place.url}">Découvrir <span aria-hidden="true">→</span></a>
+            <a href="${place.url}">${isEnglish ? 'Explore' : 'Découvrir'} <span aria-hidden="true">→</span></a>
           </article>`;
         const marker = L.marker(place.position, {
           icon: markerIcon(place.type),
@@ -159,7 +181,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       map.fitBounds(islandBounds, { padding: [28, 28] });
-      if (mapNote) mapNote.textContent = 'Zoomez, déplacez la carte ou cliquez sur un marqueur pour ouvrir la fiche du lieu.';
+      if (mapNote) {
+        mapNote.textContent = isEnglish
+          ? 'Zoom, move the map or select a marker to open the place page.'
+          : 'Zoomez, déplacez la carte ou cliquez sur un marqueur pour ouvrir la fiche du lieu.';
+      }
 
       const zoneButtons = [...mapBlock.querySelectorAll('[data-map-zone]')];
       zoneButtons.forEach((button) => {

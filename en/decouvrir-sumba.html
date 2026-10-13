@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Discover Sumba — Complete guide by area | Sumba Nusantara</title>
+<meta name="description" content="Complete guide to Sumba in 4 zones: West, Center, East and South. Maps, must-see places and day trips to prepare for your stay.">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="alternate" hreflang="fr" href="../decouvrir-sumba.html">
+<link rel="alternate" hreflang="en" href="decouvrir-sumba.html">
+<link rel="alternate" hreflang="x-default" href="../decouvrir-sumba.html">
+</head>
+<body>
+
+<header id="site-header" class="solid">
+  <div class="wrap">
+    <a class="logo" href="index.html"><svg class="logo-mark" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true"><g transform="translate(-8.026,-3.803) scale(0.03947)"><path d="M736.1,394.4 L726.9,394.4 L709.7,417.8 L676.6,441.2 L666.6,434.5 L633.5,434.5 L613.0,417.8 L590.5,417.8 L576.6,431.1 L549.5,424.5 L513.0,434.5 L487.2,431.1 L483.3,424.5 L460.1,427.8 L449.5,437.8 L423.7,431.1 L403.2,447.8 L380.6,447.8 L353.5,461.2 L330.0,491.5 L330.0,510.9 L359.8,534.9 L359.8,544.3 L377.3,561.3 L419.7,574.6 L430.3,584.6 L443.5,578.0 L479.9,581.3 L480.6,588.0 L499.8,588.0 L510.4,601.3 L519.7,601.3 L523.6,588.0 L549.5,581.3 L593.8,598.0 L606.4,591.3 L600.4,604.7 L613.0,604.7 L617.0,594.7 L626.3,598.0 L623.3,607.7 L629.9,611.0 L623.3,617.7 L669.9,644.7 L670.6,651.4 L699.7,651.4 L707.0,668.1 L716.3,664.7 L723.6,674.7 L736.1,671.4 L736.8,681.4 L756.0,681.4 L756.3,704.4 L766.9,715.1 L760.3,731.1 L783.2,738.1 L790.4,754.8 L803.0,754.8 L820.2,781.5 L829.5,774.9 L836.8,784.9 L899.7,784.9 L939.4,811.6 L967.2,778.2 L1006.3,781.5 L1013.5,771.5 L1029.4,771.5 L1049.9,758.2 L1056.9,738.5 L1086.7,721.1 L1090.0,691.8 L1080.1,671.7 L1056.6,651.4 L1026.8,644.7 L983.4,571.6 L960.6,564.6 L942.7,534.6 L893.0,547.9 L860.6,541.3 L853.0,524.2 L857.0,498.2 L839.8,468.2 L800.4,474.5 L776.9,441.5 L746.4,417.5 L736.1,394.4 Z"/></g></svg>Sumba <em>Nusantara</em></a>
+    <nav>
+      <div class="links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link is-active" href="decouvrir-sumba.html">Discover Sumba</a>
+        <a class="nav-link" href="circuits-sejours.html">Tours &amp; Stays</a>
+        <a class="nav-link" href="services.html">Services</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </div>
+      <a class="lang-pill" href="../decouvrir-sumba.html" title="Switch to French" aria-label="Switch to French">FR</a>
+      <a class="btn btn--ghost" href="contact.html">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="media">
+    <img src="../images/canyon-tanggedu-1648873581098-3b37f8e10652.webp" alt="Aerial view of a river winding through the Sumba hills">
+  </div>
+  <div class="page-hero-inner wrap">
+    <p class="hero-eyebrow">Complete Guide</p>
+    <h1 class="page-title">Discover <em>Sumba</em>,<br>zone by zone.</h1>
+    <p class="page-sub">Traditional villages, hidden waterfalls, deserted beaches and endless savannahs — organized into four zones to prepare for your exploration. Locally, the island also goes by the name <em>Humba</em> (or Hubba) — literally "the real". Rare geological feature in the archipelago: unlike most Indonesian islands, Sumba is not of volcanic origin - which partly explains its sunshine, among the highest in the entire country.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap reveal">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">The map</p>
+        <h2 class="section-title">The island, as it <em>really is.</em></h2>
+      </div>
+      <p class="section-note">Plotted from real geographic data for Sumba — 3 cities, their airports, and the four areas to explore. Click on a city or area to discover the details.</p>
+    </div>
+
+    <div class="dynamic-map-block" id="dynamic-map-block">
+      <div class="map-zone-controls" aria-label="Choose a map area">
+        <button class="map-zone-button is-active" type="button" data-map-zone="all" aria-pressed="true">Whole island</button>
+        <button class="map-zone-button" type="button" data-map-zone="ouest" aria-pressed="false">West</button>
+        <button class="map-zone-button" type="button" data-map-zone="centre" aria-pressed="false">Center</button>
+        <button class="map-zone-button" type="button" data-map-zone="est" aria-pressed="false">East</button>
+        <button class="map-zone-button" type="button" data-map-zone="sud" aria-pressed="false">South</button>
+      </div>
+
+      <div class="interactive-map-shell">
+        <div id="sumba-map" role="region" aria-label="Interactive map of cities and places to discover in Sumba"></div>
+        <div class="map-legend" aria-label="Map legend">
+          <span><i class="map-legend-dot map-legend-dot--city"></i>City</span>
+          <span><i class="map-legend-dot map-legend-dot--place"></i>Place to discover</span>
+          <span><i class="map-legend-dot map-legend-dot--airport"></i>Airport</span>
+        </div>
+      </div>
+
+      <div class="poster-map-wrap map-fallback">
+<svg viewBox="250 320 920 560" xmlns="http://www.w3.org/2000/svg" class="poster-map">
+<path class="poster-island" d="M736.1,394.4 L726.9,394.4 L709.7,417.8 L676.6,441.2 L666.6,434.5 L633.5,434.5 L613.0,417.8 L590.5,417.8 L576.6,431.1 L549.5,424.5 L513.0,434.5 L487.2,431.1 L483.3,424.5 L460.1,427.8 L449.5,437.8 L423.7,431.1 L403.2,447.8 L380.6,447.8 L353.5,461.2 L330.0,491.5 L330.0,510.9 L359.8,534.9 L359.8,544.3 L377.3,561.3 L419.7,574.6 L430.3,584.6 L443.5,578.0 L479.9,581.3 L480.6,588.0 L499.8,588.0 L510.4,601.3 L519.7,601.3 L523.6,588.0 L549.5,581.3 L593.8,598.0 L606.4,591.3 L600.4,604.7 L613.0,604.7 L617.0,594.7 L626.3,598.0 L623.3,607.7 L629.9,611.0 L623.3,617.7 L669.9,644.7 L670.6,651.4 L699.7,651.4 L707.0,668.1 L716.3,664.7 L723.6,674.7 L736.1,671.4 L736.8,681.4 L756.0,681.4 L756.3,704.4 L766.9,715.1 L760.3,731.1 L783.2,738.1 L790.4,754.8 L803.0,754.8 L820.2,781.5 L829.5,774.9 L836.8,784.9 L899.7,784.9 L939.4,811.6 L967.2,778.2 L1006.3,781.5 L1013.5,771.5 L1029.4,771.5 L1049.9,758.2 L1056.9,738.5 L1086.7,721.1 L1090.0,691.8 L1080.1,671.7 L1056.6,651.4 L1026.8,644.7 L983.4,571.6 L960.6,564.6 L942.7,534.6 L893.0,547.9 L860.6,541.3 L853.0,524.2 L857.0,498.2 L839.8,468.2 L800.4,474.5 L776.9,441.5 L746.4,417.5 L736.1,394.4 Z"/>
+<a href="decouvrir-ouest.html" class="poster-zone">
+<text x="380.0" y="520" text-anchor="middle" class="zone-name">WEST</text>
+</a>
+<a href="decouvrir-centre.html" class="poster-zone">
+<text x="580.0" y="440" text-anchor="middle" class="zone-name">CENTER</text>
+</a>
+<a href="decouvrir-est.html" class="poster-zone">
+<text x="970.0" y="620" text-anchor="middle" class="zone-name">IS</text>
+</a>
+<a href="decouvrir-sud.html" class="poster-zone">
+<text x="850.0" y="750" text-anchor="middle" class="zone-name">SOUTH</text>
+</a>
+<a href="decouvrir-ouest.html" class="poster-town">
+<text x="398.0" y="451.3" text-anchor="end" class="town-name">Tambolaka</text>
+<circle cx="420.0" cy="445.3" r="9" class="town-dot"/>
+</a>
+<a href="navette-tambolaka.html" class="airport-link">
+<circle cx="411.0" cy="443.8" r="16" class="airport-hit"/>
+<g transform="translate(404.0,436.3)" class="town-plane"><path d="M7,0 L8.6,4.2 L14,6.8 L14,8.2 L8.6,7.6 L7.6,12.4 L9.6,14 L9.6,15 L7,14.2 L4.4,15 L4.4,14 L6.4,12.4 L5.4,7.6 L0,8.2 L0,6.8 L5.4,4.2 Z"/></g>
+</a>
+<a href="decouvrir-centre.html" class="poster-town">
+<text x="506.0" y="547.3" text-anchor="end" class="town-name">Waikabubak</text>
+<circle cx="528.0" cy="541.3" r="9" class="town-dot"/>
+</a>
+<a href="decouvrir-est.html" class="poster-town">
+<text x="842.0" y="551.3" text-anchor="end" class="town-name">Waingapu</text>
+<circle cx="864.0" cy="545.3" r="9" class="town-dot"/>
+</a>
+<a href="navette-waingapu.html" class="airport-link">
+<circle cx="855.0" cy="543.8" r="16" class="airport-hit"/>
+<g transform="translate(848.0,536.3)" class="town-plane"><path d="M7,0 L8.6,4.2 L14,6.8 L14,8.2 L8.6,7.6 L7.6,12.4 L9.6,14 L9.6,15 L7,14.2 L4.4,15 L4.4,14 L6.4,12.4 L5.4,7.6 L0,8.2 L0,6.8 L5.4,4.2 Z"/></g>
+</a>
+</svg>
+      </div>
+    </div>
+    <p class="map-note" id="sumba-map-note">Schematic map — launch the site with a local server to activate the interactive map.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap reveal">
+    <div class="zone-grid">
+      <a class="zone-card" href="decouvrir-ouest.html">
+        <div class="media"><img src="../images/plage-weekuri-1506047453301-d4df41ee32c3.webp" alt="White sand beach west of Sumba"></div>
+        <p class="zone-card-index">Zone 01</p>
+        <h3 class="zone-card-name">The West</h3>
+        <p class="zone-card-desc">Kampung Ratenggaro, Weekuri lagoon, Weekacura waterfall — the postcard of Sumba.</p>
+        <p class="zone-card-count">9 places referenced →</p>
+      </a>
+      <a class="zone-card" href="decouvrir-centre.html">
+        <div class="media"><img src="../images/rizieres-waikabubak-1683610959831-aa4190402a2b.webp" alt="Rice terraces in central Sumba"></div>
+        <p class="zone-card-index">Zone 02</p>
+        <h3 class="zone-card-name">The Center</h3>
+        <p class="zone-card-desc">Anakalang megaliths, Lapopu and Matayangu waterfalls, Praijing and Tarung villages.</p>
+        <p class="zone-card-count">7 places referenced →</p>
+      </a>
+      <a class="zone-card" href="decouvrir-est.html">
+        <div class="media"><img src="../images/mangrove-walakiri-1642510099706-df489bd6bd26.webp" alt="Lone tree on a beach east of Sumba"></div>
+        <p class="zone-card-index">Zone 03</p>
+        <h3 class="zone-card-name">The East</h3>
+        <p class="zone-card-desc">Wairinding Hills, Tanggedu Waterfall, Walakiri Tree Graveyard at sunset.</p>
+        <p class="zone-card-count">8 referenced places →</p>
+      </a>
+      <a class="zone-card" href="decouvrir-sud.html">
+        <div class="media"><img src="../images/village-ratenggaro-1618479357329-14dd10e76f5e.webp" alt="Boat on the water south of Sumba"></div>
+        <p class="zone-card-index">Zone 04</p>
+        <h3 class="zone-card-name">The South</h3>
+        <p class="zone-card-desc">Tarimbang beach, Melolo mouth, Rende and Praiyawang villages.</p>
+        <p class="zone-card-count">5 places referenced →</p>
+      </a>
+    </div>
+
+    <div style="margin-top:56px; display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+      <a class="btn btn--dark" href="cascades.html">All waterfalls →</a>
+      <a class="btn btn--dark" href="plages.html">All beaches →</a>
+      <a class="btn btn--dark" href="villages.html">All villages →</a>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--cream-soft);">
+  <div class="wrap reveal">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Practical</p>
+        <h2 class="section-title">On site, <em>otherwise.</em></h2>
+      </div>
+      <p class="section-note">Wherever you go on the island, a service can take you there.</p>
+    </div>
+    <div class="service-list service-list--light">
+      <a class="service-row" href="location-scooter.html">
+        <span class="service-index">01</span>
+        <div><div class="service-name">Scooter rental</div><div class="service-desc">To explore an area at your own pace.</div></div>
+        <span class="service-price">From <b>150,000 IDR</b> / day<span class="price-alt--inline">(≈ 8$/7€)</span></span>
+        <span class="service-tag">3 cities</span>
+      </a>
+      <a class="service-row" href="services.html">
+        <span class="service-index">02</span>
+        <div><div class="service-name">Private driver - day</div><div class="service-desc">For roads that the scooter doesn't like.</div></div>
+        <span class="service-price">On quote</span>
+        <span class="service-tag">All zones</span>
+      </a>
+      <a class="service-row" href="services.html">
+        <span class="service-index">03</span>
+        <div><div class="service-name">Day trips by zone</div><div class="service-desc">One vehicle, one guide, several places in the same zone.</div></div>
+        <span class="service-price">From <b>1,200,000 IDR</b> / vehicle<span class="price-alt--inline">(≈ 70$/60€)</span></span>
+        <span class="service-tag">4 zones</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo"><svg class="logo-mark" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true"><g transform="translate(-8.026,-3.803) scale(0.03947)"><path d="M736.1,394.4 L726.9,394.4 L709.7,417.8 L676.6,441.2 L666.6,434.5 L633.5,434.5 L613.0,417.8 L590.5,417.8 L576.6,431.1 L549.5,424.5 L513.0,434.5 L487.2,431.1 L483.3,424.5 L460.1,427.8 L449.5,437.8 L423.7,431.1 L403.2,447.8 L380.6,447.8 L353.5,461.2 L330.0,491.5 L330.0,510.9 L359.8,534.9 L359.8,544.3 L377.3,561.3 L419.7,574.6 L430.3,584.6 L443.5,578.0 L479.9,581.3 L480.6,588.0 L499.8,588.0 L510.4,601.3 L519.7,601.3 L523.6,588.0 L549.5,581.3 L593.8,598.0 L606.4,591.3 L600.4,604.7 L613.0,604.7 L617.0,594.7 L626.3,598.0 L623.3,607.7 L629.9,611.0 L623.3,617.7 L669.9,644.7 L670.6,651.4 L699.7,651.4 L707.0,668.1 L716.3,664.7 L723.6,674.7 L736.1,671.4 L736.8,681.4 L756.0,681.4 L756.3,704.4 L766.9,715.1 L760.3,731.1 L783.2,738.1 L790.4,754.8 L803.0,754.8 L820.2,781.5 L829.5,774.9 L836.8,784.9 L899.7,784.9 L939.4,811.6 L967.2,778.2 L1006.3,781.5 L1013.5,771.5 L1029.4,771.5 L1049.9,758.2 L1056.9,738.5 L1086.7,721.1 L1090.0,691.8 L1080.1,671.7 L1056.6,651.4 L1026.8,644.7 L983.4,571.6 L960.6,564.6 L942.7,534.6 L893.0,547.9 L860.6,541.3 L853.0,524.2 L857.0,498.2 L839.8,468.2 L800.4,474.5 L776.9,441.5 L746.4,417.5 L736.1,394.4 Z"/></g></svg>Sumba <em>Nusantara</em></div>
+        <p class="footer-tag">Local agency based in Sumba. Tours, day trips and everyday services to explore the island differently.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="decouvrir-sumba.html">Discover Sumba</a>
+        <a href="circuits-sejours.html">Tours &amp; stays</a>
+        <a href="services.html">A la carte services</a>
+        <a href="location-scooter.html">Scooter rental</a>
+      </div>
+      <div class="footer-col">
+        <h4>Agency</h4>
+        <a href="a-propos.html">About</a>
+        <a href="bon-a-savoir.html">Good to know</a>
+        <a href="#">Customer reviews</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="contact.html">WhatsApp direct</a>
+        <a href="contact.html">contact@sumba-nusantara.com</a>
+        <a href="contact.html">Waikabubak, Sumba Barat</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Sumba Nusantara — Legal notices</p>
+      <div class="footer-social"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">WhatsApp</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
