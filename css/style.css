@@ -36,14 +36,27 @@ button{ color:inherit; }
 .media{ position:relative; overflow:hidden; background:var(--moss); }
 .media img{ transition:transform .6s ease; }
 
+/* Cadrage des photos verticales : conserver le sujet principal dans les cadres horizontaux. */
+img[src*="bateau-mangrove-sumba"]{ object-position:center 72%; }
+img[src*="anakalang-pasunga-village-megalithique-sumba"]{ object-position:center 64%; }
+img[src*="randonnee-sumba"]{ object-position:center 62%; }
+img[src*="surf-sumba"]{ object-position:center 90%; }
+
 /* ---------- header ---------- */
 header{ position:fixed; top:0; left:0; right:0; z-index:100; padding:22px 0; transition: background .4s ease, padding .4s ease, box-shadow .4s ease; background:var(--forest); }
 header .wrap{display:flex; align-items:center; justify-content:space-between; position:relative;}
 header.solid{ padding:14px 0; box-shadow:0 8px 24px rgba(0,0,0,0.18); }
-.logo{ position:relative; z-index:102; font-family:var(--serif); font-weight:600; font-size:22px; color:var(--cream); letter-spacing:.01em; display:flex; align-items:center; gap:10px; white-space:nowrap; }
-.logo em{ font-style:italic; font-weight:450; color:var(--ocre-soft); }
-.logo-mark{ flex-shrink:0; display:block; }
-.logo-mark path{ fill:var(--cream); }
+.logo{
+  position:relative; z-index:102; display:block; flex:0 0 auto;
+  width:180px; height:55px; overflow:hidden; white-space:nowrap; font-size:0;
+}
+.logo::before,
+.footer-logo::before{
+  content:""; display:block; width:100%; height:100%;
+  background:url('../images/logo/logo-sumba-nusantara-display.png') center / contain no-repeat;
+}
+.logo em,
+.logo-mark{ display:none; }
 nav{display:flex; align-items:center; gap:36px;}
 nav .links{ display:flex; gap:30px; }
 nav a.nav-link{ font-size:13.5px; letter-spacing:.03em; text-transform:uppercase; color:rgba(246,241,228,0.82); position:relative; padding-bottom:3px; }
@@ -100,8 +113,7 @@ nav a.nav-link:hover::after{ width:100%; }
 }
 
 @media(max-width:420px){
-  .logo{ font-size:19px; gap:7px; }
-  .logo-mark{ width:20px; height:20px; }
+  .logo{ width:150px; height:46px; }
   header nav{
     padding-top:calc(78px + env(safe-area-inset-top));
     gap:13px;
@@ -377,13 +389,7 @@ h2.section-title em{ font-style:italic; font-weight:450; color:var(--rouille); }
 .discover-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
 @media(max-width:940px){ .discover-grid{ grid-template-columns:repeat(2,1fr); } }
 @media(max-width:560px){ .discover-grid{ grid-template-columns:1fr; } }
-.discover-card .media{ aspect-ratio:1/1.15; }
-.discover-card:nth-child(1) .media, .discover-card:nth-child(4) .media{ aspect-ratio:1/2.4; }
-.discover-card:nth-child(1), .discover-card:nth-child(4){ grid-row: span 2; }
-@media(max-width:560px){
-  .discover-card:nth-child(1) .media, .discover-card:nth-child(4) .media{ aspect-ratio:4/3; }
-  .discover-card:nth-child(1), .discover-card:nth-child(4){ grid-row:auto; }
-}
+.discover-card .media{ aspect-ratio:4/3; border-radius:2px; }
 .discover-card:hover .media img{ transform:scale(1.05); }
 .discover-name{ margin-top:12px; font-family:var(--serif); font-weight:500; font-size:17px; color:var(--forest); }
 .discover-loc{ font-family:var(--mono); font-size:10.5px; letter-spacing:.04em; text-transform:uppercase; color:var(--rouille); margin-top:4px; }
@@ -504,9 +510,9 @@ footer{ background:var(--forest-deep); color:rgba(246,241,228,0.75); padding:80p
   .footer-top{ grid-template-columns:1fr; gap:34px; padding-bottom:44px; }
   .footer-bottom{ align-items:flex-start; flex-direction:column; }
 }
-.footer-logo{ font-family:var(--serif); font-size:26px; color:var(--cream); font-weight:600; display:flex; align-items:center; gap:11px; }
-.footer-logo em{ font-style:italic; font-weight:450; color:var(--ocre-soft); }
-.footer-logo .logo-mark{ width:26px; height:26px; }
+.footer-logo{ width:240px; height:73px; overflow:hidden; white-space:nowrap; font-size:0; }
+.footer-logo em,
+.footer-logo .logo-mark{ display:none; }
 .footer-tag{ margin-top:16px; font-size:13.5px; line-height:1.7; max-width:280px; color:rgba(246,241,228,0.55); }
 .footer-col h4{ font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--ocre-soft); margin-bottom:18px; }
 .footer-col a{ display:block; font-size:14px; padding:6px 0; color:rgba(246,241,228,0.72); transition:color .2s ease; }
